@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
 int _putchar(char c);
 
 int _islower(int c);
@@ -36,6 +38,10 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 
 unsigned int _strspn(char *s, char *accept);
+
+int main(int argc, char **argv)
+
+char *big_multiply(char *s1, char *s2)
 
 char *_strpbrk(char *s, char *accept);
 
