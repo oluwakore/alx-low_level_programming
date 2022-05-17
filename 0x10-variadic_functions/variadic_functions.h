@@ -6,7 +6,8 @@
 
 /**
  * struct formatter - struct formatter.
- * @sig - rep for a  data type.
+ *
+ * @sig: rep for a  data type.
  * @q: function pointer to function for data type.
  */
 typedef struct formatter
