@@ -5,17 +5,15 @@
 #include <stdio.h>
 
 /**
- * struct formatter - struct formatter
- *
- * @formatter: format symbols
- * @f: function to run
+ * struct formatter - struct formatter.
+ * @sig - rep for a  data type.
+ * @q: function pointer to function for data type.
  */
-
 typedef struct formatter
 {
-	char *struct formatter;
-	void (*f)(char *, va_list);
-} struct formatter_t;
+	char *sig;
+	void (*q)(va_list all);
+} q;
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
