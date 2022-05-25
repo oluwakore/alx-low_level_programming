@@ -6,7 +6,7 @@
  *
  * Return: integer length of string
  */
-int _strlen(char *a)
+int strlen(char *a)
 {
 	int d = 0;
 
