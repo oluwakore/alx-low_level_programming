@@ -6,13 +6,13 @@
  *
  * Return: integer length of string
  */
-int _strlen(char *t)
+int _strlen(char *s)
 {
 	int i = 0;
 
-	if (!t)
+	if (!s)
 		return (0);
-	while (*t++)
+	while (*s++)
 		i++;
 	return (i);
 }
