@@ -6,20 +6,20 @@
 #include <string.h>
 
 /**
- * struct linked_s - singly linked list
+ * struct list_s - singly linked list
  * @str: memory allocated string
  * @len: length of the string
- * @nxt: points to the next node
+ * @next: points to the next node
  *
  * Description: singly linked list node structure
  * for Holberton project
  */
-typedef struct linked_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
-	struct linked_s *nxt;
-} linked_t;
+	struct list_s *next;
+} list_t;
 
 int _putchar(char c);
 int strlen(char *a);
